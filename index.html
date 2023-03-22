@@ -18,25 +18,32 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
+          <li>HTML code is normally contained in a file called "index.html" which makes the main html file easy to locate and streamlines the publishing process.</li>
+          <li>Everything on a web page is defined by HTML elements.</li>
           <li>The head element contains information about the webpage.</li>
           <li>The meta element sets meta data needed to structure the site, such as charset to set what chaaracters are being used, and information on how to format the page.</li>
+          <li>The link element can be used to link a CSS sheet, this link should be put in the header before the title and after any meta data. Be sure to include rel="stylesheet" href=(link)</li>
           <li>The title element sets what is displayed in the tab title</li>
           <li>The body element represents the visible content shown to the user.</li>
           <li>The body element is where you put things like headers, sections, lists, images and links.</li>
           <li>Unordered lists are bullet points, ordered lists are numbered lists.</li>
           <li>The header types are h1-h6.</li>
+          <li>The script element can be used to link a JavaScript file, so we can use Javascript to make our website interactable. src sets the location for our Javascript file. For example, this web page's Javascript src is set to "./assets/script.js" "." representing the relative directory our index.html file is in.</li>
         </ul>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
+          <li>CSS can be set up with either inline CSS, an internal CSS style sheet, or an external CSS style sheet, though the external style sheet is the most common method.</li>
           <li>CSS elements should be structured with the name of the element to be styled, followed by {} containing style elements.</li>
           <li>Multiple elements can be styled in one block by listing them with commas seperating them. Ex: header, footer</li>
           <li>The size of CSS elements are measured in px (pixels)</li>
+          <li>Height and width determine the size of an element.</li>
+          <li>Display sets how an element is displayed. For example, in our style sheet, we have our images set to display: block by default, which puts any images on our web page on a new line and fills the entire width.</li>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>Margins can be defined by either specifying individual margins such as margin-left or margin-right, or it can be defined simply with margin: (x px) (y px)</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Padding indicates how much space we want around the content inside an element.</li>
           <li>A box shadow (box-shadow) makes a shadow around an element, taking a x offset and y offset based off of the position of the element, as arguments, as well as color.</li>
         </ul>
       </section>
@@ -58,7 +65,12 @@
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Enter your Javascript notes here</li>
+          <li>Javascript is a versatile programming language used for a lot of different things, such as APIs or frameworks and libraries for HTML.</li>
+          <li>Variables are containers that hold a value, such as a string or number. They are set with var (variableName) = value</li>
+          <li>console.log() logs whatever is contained in the parentheses to the console. Can contain a value such as a string, or it can contain a variable name, which will log whatever value is stored in the variable when the console.log is called.</li>
+          <li>If statements takes a parameter and compares it against a list of conditions to decide what code to run.</li>
+          <li>A for loop takes a set of parameters and runs the code it contains as long the conditions set in the parameters are true.</li>
+          <li>A function is a block of code that can be called any time after the fuction is defined. It helps to reduce repeatitive code.</li>
         </ul>
       </section>
     </main>
